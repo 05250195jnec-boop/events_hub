@@ -142,3 +142,14 @@ img { max-width: 100%; height: auto; }
  } 
 
 
+/* Pseudo-class: changes link color when hovered */
+a:hover {
+  color: #ff6600; /* makes links orange when mouse hovers */
+}
+
+/* Attribute selector: styles all input fields of type="text" */
+input[type="text"] {
+  border: 2px solid #0f172a; /* adds dark border around text boxes */
+  padding: 6px;
+  border-radius: 4px;
+}
